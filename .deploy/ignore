@@ -2,6 +2,11 @@
 .*/
 --coverage-*
 google*.html
+/img
+/keybase.txt
+/talks
+/zohoverify
+/wp-content/videos
 /node_modules/
 assets/*/src
 /bootstrap.php.dist
