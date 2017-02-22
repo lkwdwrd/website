@@ -1,0 +1,23 @@
+/**
+ * LkWdwrd Extras
+ * http://lkwdwrd.com/
+ *
+ * Copyright (c) 2014 Luke Woodward
+ * Licensed under the GPLv2+ license.
+ */
+
+.lkwdwrd-post-series {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #EEE;
+  padding: 1.5em 2em;
+}
+
+.lkwdwrd-post-series {
+  font-size: 0.9em;
+}
+
+.lkwdwrd-post-series .lkwdwrd-post-series-title {
+  margin: 0 0 0.5em 0;
+}

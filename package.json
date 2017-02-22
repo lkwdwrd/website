@@ -1,0 +1,13 @@
+{
+  "name": "lkwdwrd.com",
+  "version": "0.1.0",
+  "description": "The Luke on Everything website",
+  "repository": "https://github.com/lkwdwrd/website",
+  "author": "lkwdwrd",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo 'hi'",
+    "testAll": "composer test && npm test"
+  },
+  "devDependencies": {}
+}

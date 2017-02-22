@@ -1,0 +1,58 @@
+/*!
+ * Theme Name:   Lkwdwrd Wilson Child
+ * Theme URI:    http://lkwdwrd.com/
+ * Description:  Child theme used for http://lkwdwrd.com
+ * Author:       Luke Woodward
+ * Author URI:   http://lkwdwrd.com
+ * Template:     wilson
+ * Version:      1.0.0
+ */
+/*! Lkwdwrd Wilson Child - v1.0.0
+ * http://lkwdwrd.com
+ * Copyright (c) 2014; * Licensed GPLv2+ */
+
+@import url(../wilson/style.css);
+
+.sidebar .blog-title {
+	max-width: 250px;
+	margin: 0 auto;
+}
+
+.sidebar .blog-title a {
+	display: block;
+	font: 0/0 a;
+	color: transparent;
+	background-image: url(images/LOE-Logo.png);
+	background-image: url(images/LOE-Logo.svg), none;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding-top: 68%;
+}
+
+.blog-description {
+	text-align: center;
+}
+
+@media all and ( max-width: 480px ) {
+	.sidebar .blog-title {
+		width: 42%;
+		max-width: 160px;
+		margin: 0 0 0 8%;
+		float: left;
+	}
+	.sidebar .blog-title a {
+		margin-bottom: 0;
+	}
+	.sidebar .blog-header {
+		padding: 10px 0;
+		overflow: hidden;
+	}
+	.sidebar .blog-description {
+		max-width: 40%;
+		margin: 30px 0 0 0;
+		text-align: left;
+		position: absolute;
+		right: 5%;
+		bottom: 42px;
+	}
+}
