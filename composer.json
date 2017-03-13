@@ -28,7 +28,7 @@
 	],
 	"require": {
 		"vlucas/phpdotenv": "~2.2.0",
-		"johnpbloch/wordpress": "*",
+		"johnpbloch/wordpress": "~4.7.3",
 		"wpackagist-plugin/akismet": "~3.2.0",
 		"wpackagist-plugin/google-analytics-for-wordpress": "~6.0.4",
 		"wpackagist-plugin/jetpack": "~4.6.0",
